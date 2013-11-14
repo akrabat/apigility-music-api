@@ -16,3 +16,5 @@ public/vendor/*
 !public/vendor/README.md
 data/cache/*
 !data/cache/.gitkeep
+config/application.config.old
+data/music.db
