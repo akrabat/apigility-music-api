@@ -27,4 +27,9 @@
                      => 'Zend\Db\Adapter\AdapterServiceFactory',
          ),
      ),
+    'view_manager' => array(
+        // Development setting: enable this in your application configuration
+        // to get full exception stack traces in your API-Problem responses.
+        'display_exceptions' => true,
+    ),
  );
