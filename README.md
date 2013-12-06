@@ -1,6 +1,8 @@
 Apigility Tutorial Application
 ==============================
 
+See [Create a RESTful API with Apigility](http://techportal.inviqa.com/2013/12/03/create-a-restful-api-with-apigility/) on techPortal.
+
 Installation
 ------------
 
