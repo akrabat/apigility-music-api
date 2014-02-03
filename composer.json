@@ -1,21 +1,16 @@
 {
-    "name": "zfcampus/zf-apigility-skeleton",
-    "description": "Skeleton Application for Apigility",
+    "name": "akrabat/apigility-music-api",
+    "description": "Apigility music tutorial",
     "type": "library",
     "license": "BSD-3-Clause",
     "keywords": [
         "api",
         "apigility",
         "framework",
-        "zf2"
+        "zf2",
+        "tutorial"
     ],
-    "homepage": "http://apigility.org/",
-    "support": {
-        "email": "apigility-users@zend.com",
-        "irc": "irc://irc.freenode.net/apigility",
-        "source": "https://github.com/zfcampus/zf-apigility-skeleton",
-        "issues": "https://github.com/zfcampus/zf-apigility-skeleton/issues"
-    },
+    "homepage": "https://github.com/akrabat/apigility-music-api",
     "config": {
     	"process-timeout": 5000
     },
