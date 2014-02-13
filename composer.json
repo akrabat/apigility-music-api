@@ -12,7 +12,7 @@
     ],
     "homepage": "https://github.com/akrabat/apigility-music-api",
     "config": {
-    	"process-timeout": 5000
+        "process-timeout": 5000
     },
     "extra": {
         "branch-alias": {
@@ -29,6 +29,7 @@
         "zfcampus/zf-api-problem": "~1.0-dev",
         "zfcampus/zf-content-negotiation": "~1.0-dev",
         "zfcampus/zf-content-validation": "~1.0-dev",
+        "zfcampus/zf-development-mode": "~2.0",
         "zfcampus/zf-hal": "~1.0-dev",
         "zfcampus/zf-mvc-auth": "~1.0-dev",
         "zfcampus/zf-oauth2": "~1.0-dev",

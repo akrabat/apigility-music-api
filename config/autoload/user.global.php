@@ -16,6 +16,20 @@
  * file.
  */
 
-return array(
-    // ...
-);
+ return array(
+     'db' => array(
+         'driver'   => 'Pdo_Sqlite',
+         'database' => 'data/music.db',
+     ),
+     'service_manager' => array(
+         'factories' => array(
+             'Zend\Db\Adapter\Adapter'
+                     => 'Zend\Db\Adapter\AdapterServiceFactory',
+         ),
+     ),
+    'view_manager' => array(
+        // Development setting: enable this in your application configuration
+        // to get full exception stack traces in your API-Problem responses.
+        'display_exceptions' => true,
+    ),
+ );
