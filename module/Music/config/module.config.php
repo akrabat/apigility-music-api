@@ -134,4 +134,26 @@ return array(
             ),
         ),
     ),
+    'input_filter_specs' => array(
+        'Music\\V1\\Rest\\Album\\Validator' => array(
+            0 => array(
+                'name' => 'id',
+                'required' => false,
+                'filters' => array(),
+                'validators' => array(),
+            ),
+            1 => array(
+                'name' => 'artist',
+                'required' => true,
+                'filters' => array(),
+                'validators' => array(),
+            ),
+            2 => array(
+                'name' => 'title',
+                'required' => true,
+                'filters' => array(),
+                'validators' => array(),
+            ),
+        ),
+    ),
 );
